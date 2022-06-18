@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.ctn1{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.ctn1 >span{
+    margin-right: 30px;
+    position: relative;
+    bottom: 5px;
+}
+.ctn2{
+    position: relative;
+    bottom: 30px;
+}
+
+.sub{
+    width: 220px;
+    height: 40px;
+    border: 0ch;
+    font-family:serif;
+    font-size: 20px;
+    left: 220px;
+    border-radius: 20px;
+    background-color: rgb(92, 173, 92);
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+.sub:hover{
+    cursor: pointer;
+}

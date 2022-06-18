@@ -1,0 +1,19 @@
+.ava
+{
+  width: 15%;
+  height: 12px;
+  padding: 50px 10px;
+  background: rgb(92, 173, 92);
+  position: absolute;
+  top:10px;
+  left: 250px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+
+#prog{
+    position: absolute;
+    bottom: 460px;
+}

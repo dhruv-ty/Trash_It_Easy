@@ -1,38 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.App{
+  background-color:#282c34;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  min-height: 100vh;
+  font-family: 'DM Serif Display', serif;
+  
+}
+.main > div{
+margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+  display: flex;
+  background-color: white;
+  position: relative;
+  top: 40px;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 450px;
+  height: 90vh;
+  width: 650px;
+  justify-content: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+.prof{
+  width: 13%;
+  height: 7px;
+  padding: 50px 10px;
+  background: rgb(92, 173, 92);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+.op {
+  width: 25%;
+  height:120px;
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  margin-right: 200px;
+  transition: transform .4s; 
+  margin-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.op:hover{
+  cursor: pointer;
+  transform: scale(1.1); 
+
 }
+#op1{
+  background-color: #5cad5c;
+}
+#op2{
+  background-color: rgb(92, 173, 92);
+}
+
+#op3{
+   background-color: rgb(92, 173, 92);
+}
+
+#txt{
+  position:absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 38px;
+}
+
+.navbar{
+  position: absolute;
+  top: 510px;
+  width: 550px;
+  height: 56px;
+  background-color: #5cad5c;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.prof:hover{
+    cursor: pointer;
+}
+
+.im1{
+  border-radius: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+}
+.im2{
+  border-radius: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+}
+.im3{
+border-radius: 50%;
+position: relative;
+bottom: 35px;
+right: 30px;
+}
+.ima{
+  border-radius: 50%;
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+  }

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+#s1{
+    position: absolute;
+    top: 30px;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+}
+.type{
+    position: relative;
+    bottom: 30px;
+    width: 400px;
+    border-radius: 200px;
+}
+
+.wt{
+    width: 60px;
+    position: relative;
+    left: 290px;
+    height: 50px;
+}
+
+.nxt{
+    position: absolute;
+    top: 440px;
+    width: 220px;
+    height: 40px;
+    border: 0ch;
+    font-family:'DM Serif Display', serif;
+    font-size: 20px;
+    left: 220px;
+    border-radius: 20px;
+    background-color: rgb(92, 173, 92);
+}
+.nxt:hover{
+    cursor: pointer;
+}
+
+.wtg{
+    position: relative;
+    top: 40px;
+    right: 20px;
+}

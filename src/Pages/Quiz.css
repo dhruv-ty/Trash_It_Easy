@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.qz{
+    display: flex;
+    flex-direction: column;
+    
+}
+.qz >button{
+    cursor: pointer;
+    border: 1px solid #5cad5c;
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    height: 47px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family:'DM Serif Display', serif;
+}
+.qz >button:hover{
+    background-color: #5cad5c;
+}
+
+#Sc{
+    position: relative;
+    bottom: 90px;
+}
+.pbar{
+   position: relative;
+   bottom: 60px;
+}
+.ques{
+    position: relative;
+    bottom: 30px;
+}
+
