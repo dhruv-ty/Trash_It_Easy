@@ -19,6 +19,7 @@ html, body {
 margin: 20px;
 }
 
+
 .main{
   display: flex;
   background-color: white;
@@ -64,8 +65,8 @@ margin: 20px;
 
 .op:hover{
   cursor: pointer;
-  transform: scale(1.1); 
-
+  transform: scale(1.13); 
+  opacity: 0.9;
 }
 #op1{
   background-color: #5cad5c;

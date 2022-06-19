@@ -1,0 +1,38 @@
+.detail{
+    border-radius: 15px;
+    font-size: 20px;
+    height: 310px;
+    background-color: rgb(92, 173, 92);
+    max-width: 270px;
+    position: relative;
+    bottom: 80px;
+    transition: transform .4s; 
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+ }
+ .detail:hover{
+   cursor: pointer;
+   transform: scale(1.08); 
+   opacity: 0.9; 
+ }
+ .detail >img{
+    width: 270px;
+    height: 160px;
+    border-radius: 15px;
+ }
+ .detail >img:hover{
+    cursor: pointer; 
+}
+ .txt{
+    width: 250px;
+    height: 100px;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+   padding: 5px;
+   word-wrap: break-word;
+    align-items: center;
+    padding-bottom: 5px;
+ }

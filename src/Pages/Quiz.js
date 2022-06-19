@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import ProgressBar from "@ramonak/react-progress-bar";
 import './Quiz.css'
 import { useNavigate } from "react-router-dom";
+import Final_score from './Final_score';
 
 const qBank = [
     {
@@ -28,13 +29,13 @@ const Quiz = () => {
     
     const [Ques, setQues] = useState(0);
     const [Prog, setProg] = useState(0);
-    var value=0;
+    const [value, setvalue] = useState(0);
     const [Score, setScore] = useState(0);
     const navigate=useNavigate(); 
     const Chosen=(isCor)=>{
         setProg(Prog+50);
         if(Ques==1)
-        value++;
+        console.log("sds");
         else
         setQues(Ques+1);
         
@@ -45,12 +46,16 @@ const Quiz = () => {
 
     useEffect(() => {
       if(Prog==100){
-    navigate('/quiz_final')
+       setvalue(value+1); 
+    //navigate('/quiz_final')
+
       }
     }, [Prog])
 
   return (
     <>
+    {
+    value==0 &&
     <div className='qz'>
     <div id='Sc'>Score: {Score}</div>    
     <ProgressBar className='pbar'completed={Prog} width={400} bgColor='#5cad5c'/>
@@ -59,9 +64,13 @@ const Quiz = () => {
    (
     <button onClick={()=>Chosen(answer.isCor)}>{answer.Ans} </button>
    ))} 
-   
-
     </div>
+    }
+    
+    {
+    value>=1 &&
+    <Final_score fscore={Score}/>
+    }
     
 
     </>
