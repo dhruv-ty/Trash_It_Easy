@@ -1,0 +1,49 @@
+.window{
+    background-color: rgb(249, 247, 247);
+    position: absolute;
+    top: 110px;
+    align-items: center;
+    margin-left: 450px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.window >input{
+    margin: 10px;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    border-radius: 40px;
+    border: none;
+    width: 290px;
+}
+.log{
+    position: relative;
+    top: 80px;
+    left: 0px;
+
+    width: 290px;
+    height: 60px;
+    border: 0ch;
+    font-family:'DM Serif Display', serif;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: transform .4s; 
+    background-color: rgb(92, 173, 92);
+}
+.log:hover{
+cursor: pointer;
+  transform: scale(1.08); 
+  opacity: 0.9;
+}
+
+.im{
+    position: absolute;
+    border-radius: 50%;
+
+    bottom: 270px;
+}

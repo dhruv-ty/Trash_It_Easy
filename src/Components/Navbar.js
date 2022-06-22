@@ -13,9 +13,9 @@ const Navbar = () => {
   const navigate=useNavigate(); 
   useEffect(() => {
     if(value == 0)
-    navigate('/first');
+    navigate('/base');
     else if(value==1)
-    navigate('/second');
+    navigate('/fourth');
     else if(value==2)
     navigate('/third');
 

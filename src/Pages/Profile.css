@@ -17,3 +17,8 @@
     position: absolute;
     bottom: 460px;
 }
+
+.suci{
+  display: flex;
+  flex-direction: column;
+}

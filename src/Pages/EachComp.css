@@ -36,3 +36,15 @@
     align-items: center;
     padding-bottom: 5px;
  }
+
+ #headline{
+   position: absolute;
+   top: 10px;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   align-items: center;
+   padding: 2px;
+   background-color: #5cad5c;
+   border-radius: 20px;
+ }

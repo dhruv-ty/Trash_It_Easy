@@ -28,7 +28,7 @@ const User_home = () => {
 
   return (
     <>
-    <p id='txt'>Welcome back, Dhruv !</p>
+    <p id='txt'>Welcome back, Harshal !</p>
       <div className='prof' id='avatar' onClick={handleclick}>
       <img className='ima' width={80} src={avatar}></img>
       </div>

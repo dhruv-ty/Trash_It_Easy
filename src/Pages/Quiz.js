@@ -8,20 +8,46 @@ const qBank = [
     {
       question:
         "What is meant by the 3 R's ?",
-      answers: [{Ans:"vinayak",isCor:true}, 
-      {Ans:"dsds",isCor:false},
-      {Ans:"def",isCor:false},
-      {Ans:"abyu",isCor:false}]
+      answers: [{Ans:"Reduce,Reuse,Recycle",isCor:true}, 
+      {Ans:"Reduce,Reuse,Renovate",isCor:false},
+      {Ans:"Reduce,Regenerate,Recycle",isCor:false},
+      {Ans:"Refract,Recycle,React",isCor:false}]
     },
     {
       question:
-        "How to keep environment clean?",
-        answers: [{Ans:"vinayak",isCor:true}, 
-        {Ans:"dsds",isCor:false},
-        {Ans:"def",isCor:false},
-        {Ans:"abyu",isCor:false}]
+        "How to keep environment clean ?",
+        answers: [{Ans:"Exploit energy",isCor:false}, 
+        {Ans:"Never Recycle products",isCor:false},
+        {Ans:"Throw garbage on roads",isCor:false},
+        {Ans:"Conserve Resources",isCor:true}]
       },
+      {
+        question:
+          "The disposal of the screen is done by ?",
+          answers: [{Ans:"Sedimentation",isCor:false}, 
+          {Ans:"Flocculation",isCor:false},
+          {Ans:"Filtration",isCor:false},
+          {Ans:"Incineration",isCor:true}]
+        },
+        {
+          question:
+            "Sludge Bulking can be controlled by ?",
+            answers: [{Ans:"Chlorination",isCor:true}, 
+            {Ans:"Coagulation",isCor:false},
+            {Ans:"Aeration",isCor:false},
+            {Ans:"Dentrification",isCor:false}]
+          },
+          {
+            question:
+              "A facility for disposal of municipal waste is ?",
+              answers: [{Ans:"Septic tank",isCor:false}, 
+              {Ans:"Sanitary landfills",isCor:true},
+              {Ans:"Dug Wells",isCor:false},
+              {Ans:"Tandom Fills",isCor:false}]
+            },
 ];
+
+
 
 
 const Quiz = () => {
@@ -33,8 +59,8 @@ const Quiz = () => {
     const [Score, setScore] = useState(0);
     const navigate=useNavigate(); 
     const Chosen=(isCor)=>{
-        setProg(Prog+50);
-        if(Ques==1)
+        setProg(Prog+20);
+        if(Ques==4)
         console.log("sds");
         else
         setQues(Ques+1);

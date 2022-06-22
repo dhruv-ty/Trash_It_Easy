@@ -17,7 +17,7 @@
 .wt{
     width: 60px;
     position: relative;
-    left: 290px;
+    left: 250px;
     height: 50px;
 }
 
@@ -43,5 +43,15 @@
 .wtg{
     position: relative;
     top: 40px;
-    right: 20px;
+    right: 39px;
 }
+
+.sub{
+    transition: transform .4s; 
+}
+.sub:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.07); 
+}
+    

@@ -1,0 +1,59 @@
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.dets{
+  width: 200px;
+  height:200px;
+  position: relative;
+  bottom: 120px;
+  margin: 15px;
+  background-color: gre;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  transition: transform .4s; 
+
+}
+
+.ico{
+    position: absolute;
+    top: 80px;
+    right: 270px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+   
+}
+#wrk{
+    position: relative;
+    bottom: 150px;
+    right: 10px
+}
+.off{
+    width: 120px;
+    height: 50px;
+}
+.offctn{
+    position: relative;
+    bottom: 120px;
+}
+
+.on,.of{
+      position:relative;
+      bottom: 120px;
+      padding: 10px;
+}
+.of{
+    opacity: 0.3;
+}
+
+.iname{
+    position: relative;
+    top: 60px;
+}
+.type{
+    position:absolute;
+    top: 130px;
+    right: -100px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.mtab{
+    position: relative;
+    bottom: 120px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.eachitem{
+    height:80px ;
+    background-color: #5cad5c;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    position: relative;
+    transition: transform .4s; 
+    bottom: 40px;
+    text-align: center;
+}
+
+.eachitem:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.07); 
+}
+#det{
+    padding-top: 10px;
+    position: relative;
+    left: 10px;
+}
+.thmb{
+    border-radius: 50%;
+    position: relative;
+    bottom: 20px;
+    border: 2px solid black;
+    right: 30px;
+}

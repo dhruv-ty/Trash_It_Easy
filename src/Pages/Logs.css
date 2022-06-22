@@ -1,0 +1,25 @@
+.ctnlg{
+    display: flex;
+    flex-direction: column;
+}
+.eachp{
+height:80px ;
+padding-bottom: 18px;
+width: 250px;
+position: relative;
+bottom: 30px;
+background-color: #5cad5c;
+border-radius: 20px;
+display: flex;
+margin: 20px;
+align-items: center;
+transition: transform .4s;
+flex-direction: row;
+text-align: center;
+}
+
+.eachp:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.07); 
+}

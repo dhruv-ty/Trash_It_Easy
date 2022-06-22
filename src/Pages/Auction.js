@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Switch from 'react-js-switch';
 import './Auction.css'
+import { useNavigate } from "react-router-dom";
 
 const Auction = () => {
 const [isSwitchOn, setIsSwitchOn] = useState(true);
@@ -9,6 +10,10 @@ const [isSwitchOn, setIsSwitchOn] = useState(true);
     setIsSwitchOn(!isSwitchOn);
     //...
   };
+  const navigate=useNavigate(); 
+  const handleclick =()=>{
+    navigate('/Psuck');
+}
   return (
     <>
     <div className='ctn2'>
@@ -19,7 +24,7 @@ const [isSwitchOn, setIsSwitchOn] = useState(true);
     <span>Working Condition ?</span> 
     <Switch  size={50} color='white' borderColor={{on:'#f9f9f9'}} backgroundColor={{on:'#5cad5c',off:'#f9f9f9'}} value={isSwitchOn} onChange={switch_onChange_handle} />  
     </div>
-    <button className='sub'>Place on Auction</button>
+    <button className='sub' onClick={handleclick}>Place on Auction</button>
     
     </div>
     </>

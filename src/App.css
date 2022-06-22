@@ -12,6 +12,7 @@ html, body {
   font-size: calc(10px + 2vmin);
   color: black;
   min-height: 100vh;
+  min-width: 100vh;
   font-family: 'DM Serif Display', serif;
   
 }

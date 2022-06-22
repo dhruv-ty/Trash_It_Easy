@@ -9,7 +9,7 @@ const Feed = () => {
 
   const [content, setcontent] = useState([]);
   const getsomething = async()=>{
-       const { data }=await axios.get(`https://newsapi.org/v2/everything?q=Ecosystem&apiKey=fa553aecdcef4d74b09bcfe6ffecd00d`
+       const { data }=await axios.get(`https://newsapi.org/v2/everything?q=Environment&apiKey=fa553aecdcef4d74b09bcfe6ffecd00d`
        );
        setcontent(data.articles);
        console.log(data.articles);
@@ -24,7 +24,9 @@ const Feed = () => {
       console.log(Page);
     }
   return (
-    <>  <button className='nxt' onClick={handlechange}>Next</button>
+    <>  
+    <div id='headline'>POPULAR</div>
+    <button className='nxt' onClick={handlechange}>Next</button>
         {
         content && content.slice(Page,Page+2).map((c)=> 
         <EachComp  title={c.title} url={c.urlToImage}/>
